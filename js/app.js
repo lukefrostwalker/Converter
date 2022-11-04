@@ -2,32 +2,6 @@ const inputData = document.querySelector("#input");
 const selectFrom = document.querySelector("#from");
 const selectTo = document.querySelector("#to");
 const outputData = document.querySelector("#output");
-const outputLabel = document.querySelector("#output-label");
-// const selectEl = document.querySelector("select");
-
-// const unit = [
-//     "nanometer",
-//     "micrometer",
-//     "millimeter",
-//     "centimeter",
-//     "meter",
-//     "kilometer",
-//     "mile",
-//     "yard",
-//     "foot",
-//     "inch"
-// ]
-
-// for (let i = 1; i >= 0; i--) {
-//     let option = `<option value=${unit[i];}>${unit[i];}</option>`;
-//     selectEl[0].firstElementChild.insertAdjacentHTML('afterend', option);
-// ;}
-// for (let i = 1; i >= 0; i--) {
-//     let option = `<option value=${unit[i];}>${unit[i];}</option>`;
-//     selectEl[1].firstElementChild.insertAdjacentHTML('afterend', option);
-// ;}
-
-
 
 function conversion() {
     if (
