@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&family=Roboto+Condensed&display=swap');body {
+    margin: 0;
+    box-sizing: 0;
+    background: linear-gradient(300deg, rgba(29,53,87,0.9752275910364145) 50%, rgba(69,123,157,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.converter-container {
+    background-color: #FCFAF8;
+    border-radius: 5px;
+    color: #383838;
+    font-family: 'Montserrat', sans-serif;
+}
+input {
+    width: 100%;
+    padding: 3px;
+}
+input:focus {
+    outline: none;
+}
+.arrow-icon {
+    color: #ff4d5a;
+}
+select {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+select:focus {
+    outline: none;
+}
+label {
+    width: 100%;
+    background-color: #414141;
+    color: #FCFAF8;
+    padding: 3px;
+}
