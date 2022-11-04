@@ -13,16 +13,18 @@
 }
 input {
     width: 100%;
-    padding: 3px;
+    padding: 3px 4px 3px 4px;
 }
 input:focus {
     outline: none;
 }
 .arrow-icon {
     color: #ff4d5a;
+    height: 100%;
 }
 select {
     width: 100%;
+   /* font-family: 'Roboto Condensed', sans-serif; */
     font-family: 'Open Sans', sans-serif;
 }
 select:focus {
@@ -33,4 +35,15 @@ label {
     background-color: #414141;
     color: #FCFAF8;
     padding: 3px;
+}
+@media (max-width: 900px) {
+    select {
+        /* font-family: 'Roboto Condensed', sans-serif; */
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px) {
+    select {
+        font-family: 'Roboto Condensed', sans-serif;
+    }
 }
